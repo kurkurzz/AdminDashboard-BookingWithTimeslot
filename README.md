@@ -1,6 +1,8 @@
 # TeleBot-AdminDashboard
 Admin dashboard for telegram bot booking system.
+
 Checkout the Telegram bot script in https://github.com/kurkurzz/TelegramBot-BookingWithTimeslot.
+
 ![Webp net-resizeimage (3)](https://user-images.githubusercontent.com/64152220/97802072-e6ea8a00-1bf5-11eb-9cb1-51ac415e9e3d.png)
 
 ## Technology Used
