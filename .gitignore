@@ -1,0 +1,6 @@
+/dashboard.ui
+/dist
+/build
+/__pycache__
+/main.spec
+/firebase-adminsdk.json
