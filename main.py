@@ -1,4 +1,5 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
+import PyQt5
 import datetime as dt
 from booking import Booking
 import firestore_service
@@ -219,7 +220,7 @@ class Ui_MainWindow(object):
             datelabel.setFont(font)
             self.verticalLayout.addWidget(datelabel)
             for booking in firestore_service.booking_list:
-                if(booking.datetime.date()==date):
+                if booking.datetime.date()==date:
                     horizontalbox = QtWidgets.QFrame()
                     horizontalLayoutWidget = QtWidgets.QWidget()
                     horizontalLayoutWidget.setGeometry(QtCore.QRect(10, 240, 411, 80))

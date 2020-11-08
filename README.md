@@ -56,6 +56,21 @@ Checkout the Telegram bot script in https://github.com/kurkurzz/TelegramBot-Book
   
         $ python main.py
 
+#### 5. Convert to .exe
+
+- Copy all files from ```hook-files``` folder.
+- Locate your pyinstaller's hooks folder. Example ```C:\Program Files\Python38\Lib\site-packages\PyInstaller\hooks```
+  
+-  Paste it in there.
+
+- In project directory terminal, run command:
+  
+      pyinstaller -w -F -i 'icons\admin_icon.ico' main.py
+- Lastly, copy ```firebase-adminsdk.json``` to the .exe directory.
+
+- Done
+
+
 ## To Do
-- [ ] Find way to convert to .exe
+- [x] Find way to convert to .exe
 - [ ] Auto refresh list when data changes happen.
