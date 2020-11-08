@@ -65,7 +65,7 @@ Checkout the Telegram bot script in https://github.com/kurkurzz/TelegramBot-Book
 
 - In project directory terminal, run command:
   
-      pyinstaller -w -F -i 'icons\admin_icon.ico' main.py
+      $ pyinstaller -w -F -i 'icons\admin_icon.ico' main.py
 - Lastly, copy ```firebase-adminsdk.json``` to the .exe directory.
 
 - Done
